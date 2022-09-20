@@ -1,36 +1,19 @@
-<p align="center">
-<img src="https://media.giphy.com/media/4dM1U76aAQ3dbE6bc3/giphy.gif" alt="GIF" width="128" height="128"/>
-</p>
-<p align="center">
-<a href="#"><img title="VPS/RDP GRÁTIS" src="https://img.shields.io/badge/VPS/RDP GRÁTIS-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/Biiuh"><img title="Criador" src="https://img.shields.io/badge/Criador-BiiuhYT-orange.svg?style=for-the-badge&logo=github"></a>
-</p>
+# Windows2019RDP-US
+Windows Server 2019 Github with RDP Access (ngrok US) 
+Repo link: https://github.com/aloksharmakumar77/Windows2019RDP-US
 
+Create a free VPS with 2cpu-7gb Ram FREE with Github:
 
-#### Tutorial YouTube
+*For Asia go to https://github.com/aloksharmakumar77/Windows2019RDP-AP*
 
-* Link: `https://www.youtube.com/c/HACKMTH`
++ Click Fork in the right corner of the screen to save it to your Github.
++ Visit https://dashboard.ngrok.com to get NGROK_AUTH_TOKEN
++ In Github go to Settings> Secrets> New repository secret
++ In Name: enter NGROK_AUTH_TOKEN
++ In Value: visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste Your Authtoken into
++ Press Add secret
++ Go to Action> CI> Run workflow
++ Reload the page and press CI> build
++ Press the down arrow on Connect To Your RPD to get IP, User, Password.
 
-#### Tutorial PT/BR
-1. Obrigatório criar a conta em: `https://dashboard.ngrok.com/signup`
-2. Ir nas "Settings" depois em "Secrets" e criar um repositorio secreto com o nome `NGROK_AUTH_TOKEN`
-3. Coloque o token de: `https://dashboard.ngrok.com/get-started/your-authtoken` no repositorio secreto
-4. Vai em "Actions" e procure "BiiuhRDP".
-
-#### Tutorial EN
-1. Account must be created at: `https://dashboard.ngrok.com/signup`
-2. Go to "Settings" then "Secrets" and create a secret repository named `NGROK_AUTH_TOKEN`
-3. Place the token: `https://dashboard.ngrok.com/get-started/your-authtoken` in the secret repository
-4. Go to "Actions" and look for "BiiuhRDP".
-
-#### Config.
-- IP: `https://dashboard.ngrok.com/endpoints/status`
-- User: `runneradmin`
-- Senha/Password: `Biiuh2021`
-- Tempo/Time: `6 horas/hours`
-
-#### Config. PC
-- RAM: `7gb`
-- Cores: `2`
+*IF MY REPO GOT DELETED,ON YOUR GITHUB GO TO .github/workflows > RDP-US.yml AND EDIT NEW LINK TO YOUR REPO. ALL .BAT in Files FOLDER* 
